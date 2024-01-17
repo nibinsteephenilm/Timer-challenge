@@ -1,9 +1,11 @@
 import Player from "./components/Player.jsx";
 import TimerChallenge from "./components/TimerChallenge.jsx";
+import Header from "./components/header.jsx";
 
 function App() {
     return (
-        <>
+        <>  
+            <Header/>
             <Player />
             <div id="challenges">
                 <TimerChallenge title="Easy" targetTime={1} />
